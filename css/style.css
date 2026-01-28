@@ -9,8 +9,9 @@
     --text-color-primary: #222222;
     --text-color-secondary: #ffffff;
 
-    
-
+    --weight-titulo: 700;
+    --weight-texto: 400;
+    --weight-menu: 500;
 }
 
 * {
