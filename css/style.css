@@ -1,10 +1,11 @@
 :root {
+
+    --color-primary: #8f0101;
+    --color-secondary: #B81515;
+
     --background-color-primary: #FFFFFF;
     --background-color-secondary: #F5F5F5;
     --background-color-tertiary: #000000;
-
-    --button-color-primary: #8f0101;
-    --button-color-secondary: #B81515;
 
     --text-color-primary: #222222;
     --text-color-secondary: #ffffff;
