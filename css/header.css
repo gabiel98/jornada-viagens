@@ -4,6 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 37px 48px;
+    position: relative;
    
 }
 
@@ -24,5 +25,24 @@ nav {
 input[type="checkbox"]:checked ~ nav {
     display: block;
     position: absolute;
-    
+    top: 100%;
+    right: 0;
+    background-color: var(--background-color-tertiary);
+    width: 100%;
+    padding: 16px 48px;
+
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-list li a{
+    color: var(--text-color-secondary);
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-list li {
+    margin: 16px 0;
 }
