@@ -47,9 +47,3 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .section-titulo h2{
-    font-size: 36px;
-  }
-}
-
