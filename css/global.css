@@ -22,4 +22,22 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(--text-color-primary);
 }
+
+.section-titulo h2{
+  font-size: 28px;
+  font-weight: var(--weight-titulo);
+  margin: 0px;
+  color:var(--text-color-primary);
+  text-align: center;
+}
+
+.section-titulo hr{
+  background-color: var(--color-secondary);
+  width: 180px;
+  height: 4px;
+  border: none;
+  margin: 16px auto 32px;
+}
+
