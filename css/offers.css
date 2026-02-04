@@ -5,15 +5,16 @@
     box-sizing: border-box;
     border-radius: 16px;
     padding: 24px 16px;
-    padding: ;
-    background-image: ;
     text-align: center;
+    background-color: black;
 }
 
 .card header {
     display: block;
+    padding: 0px;
     background-color: transparent;
     position: static;
+    margin-bottom: 24px;
 }
 
 .card header p{
