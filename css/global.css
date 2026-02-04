@@ -25,6 +25,8 @@ body {
   color: var(--text-color-primary);
 }
 
+
+
 .section-titulo h2{
   font-size: 28px;
   font-weight: var(--weight-titulo);
@@ -39,6 +41,12 @@ body {
   height: 4px;
   border: none;
   margin: 16px auto 32px;
+}
+
+.content-title {
+  font-size: 28px;
+  font-weight: var(--weight-titulo);
+  margin: 0 0 24px;
 }
 
 .button {
