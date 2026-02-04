@@ -1,36 +1,49 @@
 .card {
-    color: var(--text-color-secondary);
-    width: 312px;
-    height: 288px;
-    box-sizing: border-box;
-    border-radius: 16px;
-    padding: 24px 16px;
-    text-align: center;
-    background-color: black;
+  color: var(--text-color-secondary);
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 24px 16px;
+  text-align: center;
+  background-color: black;
 }
 
 .card header {
-    display: block;
-    padding: 0px;
-    background-color: transparent;
-    position: static;
-    margin-bottom: 24px;
+  display: block;
+  padding: 0px;
+  background-color: transparent;
+  position: static;
+  margin-bottom: 24px;
 }
 
-.card header p{
-    font-size: 20px;
-    font-weight: var(--weight-texto);
+.card header p {
+  font-size: 20px;
+  font-weight: var(--weight-texto);
 }
 
 .card header h3 {
-    font-size: 40px;
-    font-weight: var(--weight-titulo);
-    margin: 8px 0px 0px;
+  font-size: 40px;
+  font-weight: var(--weight-titulo);
+  margin: 8px 0px 0px;
 }
 
 .card header span {
-    font-size: 32px;
-    margin-top: 24px;
-    display: inline-block;
+  font-size: 32px;
+  margin-top: 24px;
+  display: inline-block;
 }
 
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 260px;
+  }
+  .card header h3 {
+    font-size: 48px;
+  }
+
+  .card header span {
+    font-size: 40px;
+  }
+}
