@@ -1,0 +1,103 @@
+.destinos {
+  width: 312px;
+  margin: 0 auto;
+}
+.destinos h2 {
+  margin-top: 88px;
+}
+
+.destinos .item header {
+  display: block;
+  padding: 0px;
+  background-color: transparent;
+  position: static;
+  margin-bottom: 24px;
+}
+
+.destinos-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  margin-top: 64px;
+}
+
+.titulo-item {
+  font-size: 28px;
+  font-weight: var(--weight-titulo);
+  margin-top: 24px;
+}
+
+.item p {
+  display: inline-block;
+  font-size: 20px;
+  padding-bottom: 24px;
+}
+
+.img-item-tokyo {
+  background: url("../img/tokyo-mobile.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 312px;
+  height: 360px;
+}
+
+.img-item-osaka {
+  background: url("../img/osaka-mobile.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 312px;
+  height: 360px;
+}
+
+.item footer .button {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .destinatinos {
+    width: 648px;
+  }
+  .destinos .item .img-item {
+    width: 100%;
+    height: 452px;
+  }
+  .img-item-tokyo {
+    background: url(../img/tokyo-tablet-desk.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 452px;
+  }
+  .img-item-osaka {
+    background: url(../img/osaka-tablet-desk.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 452px;
+  }
+  .item footer .button {
+    width: 280px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .destinos {
+    width: 900px;
+  }
+
+  .img-item-tokyo {
+    width: 100%;
+    height: 452px;
+  }
+  .img-item-osaka {
+    width: 100%;
+    height: 452px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .destinos {
+    width: 1200px;
+  }
+  .destinos-items {
+    flex-direction: row;
+  }
+}
