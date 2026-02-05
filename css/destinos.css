@@ -1,3 +1,11 @@
 .destinos h2 {
     margin-top: 88px;
 }
+
+.destinos .item header {
+  display: block;
+  padding: 0px;
+  background-color: transparent;
+  position: static;
+  margin-bottom: 24px;
+}
