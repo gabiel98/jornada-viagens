@@ -60,6 +60,7 @@ body {
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
+  min-width: 280px;
 }
 
 
