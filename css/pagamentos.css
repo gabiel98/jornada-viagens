@@ -1,3 +1,12 @@
 .pagamentos h2 {
     margin-top: 88px;
 }
+
+.pagamentos-text .content-title{
+    margin: 0;
+}
+
+.pagamentos {
+    width: 312px;
+    margin: 0 auto;
+}

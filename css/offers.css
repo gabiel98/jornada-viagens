@@ -5,9 +5,10 @@
     align-items: center;
 }
 
+
 .card {
   color: var(--text-color-secondary);
-  width: 312px;
+  width: 80%;
   height: 288px;
   box-sizing: border-box;
   border-radius: 16px;
