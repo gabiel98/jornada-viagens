@@ -1,0 +1,73 @@
+.pagamentos {
+  width: 100%;
+}
+.pagamentos h2 {
+  margin-top: 6.25rem;
+}
+
+.pagamentos-text {
+  margin: 0 24px;
+}
+
+.pagamentos .pagamentos-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.pagamentos .pagamentos-img .img.mala {
+  background: url("../img/gallery1-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.pagamentos .pagamentos-img .img.passaporte {
+  background: url("../img/gallery2-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.pagamentos .pagamentos-img .img.pessoas {
+  background: url("../img/gallery3-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.pagamentos .pagamentos-img .img.pessoas.span {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .pagamentos .pagamentos-img .img.mala {
+    background: url("../img/gallery1-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
+  .pagamentos .pagamentos-img .img.passaporte {
+    background: url("../img/gallery2-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
+  .pagamentos .pagamentos-img .img.pessoas {
+    background: url("../img/gallery3-tablet.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pagamentos .pagamentos-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 130px;
+    margin-left: 130px;
+  }
+  .pagamentos .pagamentos-img {
+    width: 790px;
+    margin: 0;
+  }
+
+  .pagamentos-text {
+    width: 360px;
+  }
+}
