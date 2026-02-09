@@ -98,10 +98,11 @@
 
 }
 @media screen and (min-width: 1440px) {
-  .destinos {
-    width: 100%;
+  .destinos-items .item.tokyo {
+    margin-left: 8.125rem;
   }
-  .destinos-items {
-    flex-direction: row;
+
+  .destinos-items .item.osaka {
+    margin-right: 8.125rem;
   }
 }
