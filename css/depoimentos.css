@@ -2,3 +2,14 @@
   margin-top: 5.5rem;
 }
 
+.depoimentos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.depoimentos header {
+  background-color: var( --background-color-primary);
+  padding: 0;
+}
