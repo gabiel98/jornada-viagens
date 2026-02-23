@@ -23,6 +23,7 @@
   flex-direction: row;
   gap: 1.5rem;
   margin-top: .5rem;
+  align-items: center;
 }
 
 .depoimentos article footer img{
@@ -35,7 +36,6 @@
   line-height: 2rem;
   font-weight: var( --weight-titulo);
   margin: 0 0 .5rem;
-  align-items: center;
 }
 
 .depoimentos footer .depoimentos-profile .rating .estrela {
