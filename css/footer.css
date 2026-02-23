@@ -1,0 +1,87 @@
+.bottom-hero .hero-img {
+  background: url("../img/bg-bottom-hero-mobile.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+
+.main-footer {
+  background-color: var(--background-color-tertiary);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 2.125rem;
+}
+
+.main-footer .footer-content {
+  text-align: center;
+}
+
+.footer-content img {
+  margin-bottom: 1rem;
+}
+
+.main-footer p {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: var(--text-color-secondary);
+  margin-bottom: 0.5rem;
+  font-weight: var(--text-weight);
+}
+
+.main-footer .footer-redes {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bottom-hero .hero-img {
+    background: url("../img/bg-bottom-hero-tablet.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+  }
+  .main-footer {
+    padding: 2rem 3.75rem;
+  }
+  .main-footer {
+    padding: 2rem 3.75rem;
+  }
+  .main-footer p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+  .main-footer .footer-redes {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bottom-hero .hero-img {
+    background: url("../img/bg-bottom-hero-desktop.png") no-repeat;
+    background-size: cover;
+    height: 37.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3.25rem 7.5rem;
+  }
+
+  .main-footer .footer-content {
+    text-align: left;
+  }
+
+  .main-footer .footer-redes {
+    width: 10.3125rem;
+  }
+
+  .main-footer .footer-redes p {
+    font-size: 1rem;
+  }
+}
