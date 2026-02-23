@@ -25,6 +25,17 @@ body {
   color: var(--text-color-primary);
 }
 
+section {
+  width: 19.5rem;
+  margin: 0 auto 5.5rem;
+}
+
+section.hero, section.bottom-hero {
+  width: 100%;
+  margin: 0;
+
+}
+
 .section-titulo h2{
   font-size: 28px;
   font-weight: var(--weight-titulo);
@@ -69,15 +80,29 @@ body {
 
 
 @media screen and (min-width: 768px) {
+  section {
+    width: 40.5rem;
+  }
+
   .section-titulo h2{
     font-size: 32px;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  section {
+    width: 56.25rem;
+  }
+
   .button:hover {
   background-color: var(--color-primary);
   cursor: pointer;
 }
 }
 
+@media screen and (min-width: 1440px) {
+  section {
+    width: 75rem;
+  }
+  
+}

@@ -11,17 +11,18 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 88px;
+  margin-top: 5.5rem;
 }
 
 .categorias-cards .card {
-  width: 80%;
+  width:312px;
   height: 220px;
   background-color: var(--background-color-secondary);
   text-align: center;
   padding: 24px;
   border-radius: 16px;
   color: var(--text-color-primary);
+  box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -40,7 +41,7 @@
 
 @media screen and (min-width: 768px) {
   .categorias h2 {
-  width: 100%
+  width: 100%;
   }
   .categorias-cards .section-title {
     width: 100%;
