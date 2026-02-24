@@ -34,3 +34,43 @@
     font-size: 1.25rem;
     line-height: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .pacotes-viagens .top-hero {
+        padding: 13.125rem 4.375rem 6.6875rem;
+    }
+    .top-hero p {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .pacotes-viagens .top-hero {
+        background: url("../img/travel-packages/japan-bg-hero-tablet.png") no-repeat;
+        background-size: cover;
+        height: 38.75rem;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .pacotes-viagens .top-hero {
+        padding: 9.375rem 7.5rem 10.625rem;
+        margin: 0 auto;
+    }
+    .top-hero p {
+        width: 35.625rem;
+    }
+
+    .pacotes-viagens .top-hero {
+        background: url("../img/travel-packages/japan-bg-hero-desktop.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .pacotes-viagens .hero-content {
+        width: 75rem;
+    }
+    
+}
