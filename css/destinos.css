@@ -5,10 +5,13 @@
 .item {
   margin-left: 24px;
   margin-right: 24px;
-
 }
 .destinos h2 {
   margin-top: 5.5rem;
+}
+
+.destinos .section-titulo.pacotes-destinos h2 .mobile-line-break {
+  display: block;
 }
 
 .destinos .item header {
@@ -62,6 +65,11 @@
   .destinos {
     width: 100%;
   }
+
+  .destinos .section-titulo.pacotes-destinos h2 .mobile-line-break {
+    display: inline;
+  }
+
   .destinos .item .img-item {
     width: 100%;
     height: 452px;
@@ -83,7 +91,6 @@
   }
 }
 @media screen and (min-width: 1024px) {
-
   .destinos-items {
     flex-direction: row;
     width: 100%;
@@ -91,10 +98,8 @@
     justify-content: center;
   }
   .destinos {
-    width: 100%
+    width: 100%;
   }
-
-
 }
 @media screen and (min-width: 1440px) {
   .destinos-items .item.tokyo {

@@ -22,16 +22,19 @@
 .pagamentos .pagamentos-img .img.mala {
   background: url("../img/gallery1-mobile.png") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .pagamentos .pagamentos-img .img.passaporte {
   background: url("../img/gallery2-mobile.png") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .pagamentos .pagamentos-img .img.pessoas {
   background: url("../img/gallery3-mobile.png") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .pagamentos .pagamentos-img .img.pessoas.span {
@@ -42,16 +45,19 @@
   .pagamentos .pagamentos-img .img.mala {
     background: url("../img/gallery1-tablet.png") no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .pagamentos .pagamentos-img .img.passaporte {
     background: url("../img/gallery2-tablet.png") no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .pagamentos .pagamentos-img .img.pessoas {
     background: url("../img/gallery3-tablet.png") no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 
