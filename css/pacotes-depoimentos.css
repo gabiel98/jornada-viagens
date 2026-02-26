@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+  .pacotes-viagens ~ .depoimentos {
+    width: calc(100% - 48px);
+    margin: 0 auto 5.5rem;
+  }
+
+  .pacotes-viagens ~ .depoimentos .depoimentos-container,
+  .pacotes-viagens ~ .depoimentos .depoimentos-container article {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .depoimentos-profile.olga {
+    min-width: max-content;
+  }
+
+  .depoimentos-profile.olga h3,
+  .depoimentos-profile.olga .rating {
+    white-space: nowrap;
+  }
+}
