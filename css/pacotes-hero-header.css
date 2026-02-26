@@ -1,6 +1,5 @@
-
 .pacotes-viagens.hero {
-    margin-bottom: 5.5rem;
+  margin-bottom: 5.5rem;
 }
 
 .pacotes-viagens .top-hero {
@@ -10,17 +9,24 @@
   background-position: center;
 }
 
+.pacotes-viagens.bottom-hero .hero-img {
+  background: url("../img/travel-packages/japan-bg-bottom-hero-mobile.png")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .pacotes-viagens .hero-content {
-    padding: 4.0625rem 24px;
+  padding: 4.0625rem 24px;
 }
 
 .top-hero h1 {
-    color: var(--text-color-secondary);
-    font-weight: var(--weight-titulo);
-    font-size: 3rem;
+  color: var(--text-color-secondary);
+  font-weight: var(--weight-titulo);
+  font-size: 3rem;
 }
 
-.top-hero hr{
+.top-hero hr {
   background-color: var(--color-secondary);
   width: 180px;
   height: 4px;
@@ -29,48 +35,64 @@
 }
 
 .top-hero p {
-    color: var(--text-color-secondary);
-    font-weight: var(--weight-texto);
-    font-size: 1.25rem;
-    line-height: 2rem;
+  color: var(--text-color-secondary);
+  font-weight: var(--weight-texto);
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 @media screen and (min-width: 768px) {
-    .pacotes-viagens .top-hero {
-        padding: 13.125rem 4.375rem 6.6875rem;
-    }
-    .top-hero p {
-        font-size: 2rem;
-        line-height: 3rem;
-    }
+  .pacotes-viagens .top-hero {
+    padding: 13.125rem 4.375rem 6.6875rem;
+  }
+  .top-hero p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 
-    .pacotes-viagens .top-hero {
-        background: url("../img/travel-packages/japan-bg-hero-tablet.png") no-repeat;
-        background-size: cover;
-        height: 38.75rem;
-        background-position: center;
-    }
+  .pacotes-viagens .top-hero {
+    background: url("../img/travel-packages/japan-bg-hero-tablet.png") no-repeat;
+    background-size: cover;
+    height: 38.75rem;
+    background-position: center;
+  }
+
+  .pacotes-viagens.bottom-hero .hero-img {
+    background: url("../img/travel-packages/japan-bg-bottom-hero-trablet.png")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .pacotes-viagens .top-hero {
-        padding: 9.375rem 7.5rem 10.625rem;
-        margin: 0 auto;
-    }
-    .top-hero p {
-        width: 35.625rem;
-    }
+  .pacotes-viagens .top-hero {
+    padding: 9.375rem 7.5rem 10.625rem;
+    margin: 0 auto;
+  }
+  .top-hero p {
+    width: 35.625rem;
+  }
 
-    .pacotes-viagens .top-hero {
-        background: url("../img/travel-packages/japan-bg-hero-desktop.png") no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
+  .pacotes-viagens .top-hero {
+    background: url("../img/travel-packages/japan-bg-hero-desktop.png")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .pacotes-viagens.bottom-hero .hero-img {
+    background: url("../img/travel-packages/japan-bg-bottom-hero-desktop.png")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 37.5rem;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .pacotes-viagens .hero-content {
-        width: 75rem;
-    }
-    
+  .pacotes-viagens .hero-content {
+    width: 75rem;
+  }
 }
